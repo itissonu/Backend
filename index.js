@@ -24,7 +24,7 @@ const connectToDatabase = async () => {
 
 const app=express();
 app.use(cors({
-    origin: 'http://localhost:3000', 
+    origin: 'https://ecommerce-frontend-green-five.vercel.app', 
     credentials: true,
 }));
 app.use(cookieParser());
